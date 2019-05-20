@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/yours"
+            android:title="for you"/>
+
+        <item android:id="@+id/sports"
+            android:title="sports"
+            />
+        <item android:id="@+id/entertainment"
+            android:title="entertainment"
+            />
+        <item android:id="@+id/gadgets"
+            android:title="gadgets"
+            />
+        <item android:id="@+id/lifestyle"
+            android:title="lifestyle"
+            />
+        <item
+            android:id="@+id/search"
+            android:title="search"/>
+    </group>
+    <item android:title="sign out"
+        android:id="@+id/signout"
+
+        />
+
+
+</menu>
