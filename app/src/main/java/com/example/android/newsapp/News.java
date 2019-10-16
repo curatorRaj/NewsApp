@@ -6,13 +6,7 @@ public class News {
     private String news;
     private  String newsUrl;
     public News(String title,String image,String news, String newsUrl)
-    {
-        this.image = image;
-        this.title = title;
-        this.news = news;
-        this.newsUrl = newsUrl;
-
-    }
+   
 
     public String getImage(){
         return image;
