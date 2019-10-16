@@ -28,15 +28,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public class CoustumAdapter extends ArrayAdapter<News> {
-    private ArrayList<News> news;
-    private Context context;
 
-    public CoustumAdapter(Context context, int resource, List<News> objects) {
-        super(context, resource, objects);
-        this.context=context;
-        news = (ArrayList<News>) objects;
-    }
 
 
     @Override
